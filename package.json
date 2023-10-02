@@ -1,0 +1,20 @@
+{
+  "name": "velo-node",
+  "author": "Velo Data",
+  "description": "Node.js library for Velo API access",
+  "license": "MIT",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/velodataorg/velo-node"
+  },
+  "keywords": [
+    "velo",
+    "node"
+  ],
+  "dependencies": {
+    "luxon": "^3.3.0",
+    "split": "^1.0.1"
+  }
+}
