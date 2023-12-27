@@ -3,7 +3,7 @@
   "author": "Velo Data",
   "description": "Node.js library for Velo API access",
   "license": "MIT",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": "index.js",
   "repository": {
     "type": "git",
