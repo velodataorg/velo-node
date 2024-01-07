@@ -4,6 +4,7 @@ async function doWork() {
   const stories = await client.news.stories({begin: 0})
   console.log(stories)
 
+  // is instance of https://github.com/websockets/ws/blob/HEAD/doc/ws.md#class-websocket
   const socket = client.news.stream()
 
   socket.on('open', () => {
