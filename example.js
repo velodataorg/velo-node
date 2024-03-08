@@ -4,7 +4,7 @@ async function doWork() {
   const futures = await client.futures()
   const future = futures[0]
 
-  const columns = await client.futuresColumns()
+  const columns = client.futuresColumns()
   const twoColumns = columns.slice(0, 2)
 
   const params = {
