@@ -1,5 +1,5 @@
 # velo-node
-NodeJS library for Velo API access. [See full documentation here](https://velodata.gitbook.io/velo-data-api/nodejs).
+NodeJS library for Velo API access. [See full documentation here](https://docs.velodata.app/nodejs).
 
 ## Install
 ```
@@ -39,4 +39,4 @@ doWork()
 ```
 
 ## License
-Copyright 2023 Velo Data, license MIT
+Copyright 2024 Velo Data, license MIT
