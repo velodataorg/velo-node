@@ -24,7 +24,7 @@ async function doWork() {
     products: [future.product],
     begin: Date.now() - 1000 * 60 * 11, // 10 minutes
     end: Date.now(),
-    resolution: 1 // 1 minute
+    resolution: '1m' // 1 minute
   }
 
   const rows = client.rows(params)
